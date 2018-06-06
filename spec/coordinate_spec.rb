@@ -1,4 +1,4 @@
-require_relative 'coordinate'
+require_relative '../app/coordinate'
 
 describe Coordinate do
   it "calculates the distance from itself" do

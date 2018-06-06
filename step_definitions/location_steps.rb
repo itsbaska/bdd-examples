@@ -1,4 +1,4 @@
-require_relative 'shouty'
+require_relative '../app/shouty'
 
 Given('{word} is at {int}, {int}') do |word, x, y|
  @shouty.set_location(word, Coordinate.new(x, y))
