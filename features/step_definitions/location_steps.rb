@@ -1,7 +1,7 @@
-require_relative '../app/shouty'
+require_relative '../../app/shouty'
 
 Given('{word} is at {int}, {int}') do |word, x, y|
- @shouty.set_location(word, Coordinate.new(x, y))
+  @shouty.set_location(word, Coordinate.new(x, y))
 end
 
 Given('{word} has an account') do |word|

@@ -5,11 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem "cucumber"
 gem "rake"
 
 group :test do
-  gem 'shoulda-matchers'
-  gem 'rack-test'
   gem 'rspec'
+  gem "cucumber"
 end
+

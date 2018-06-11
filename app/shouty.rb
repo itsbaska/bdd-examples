@@ -30,7 +30,6 @@ class Shouty
           end
         end
       end
-
       shoutsHeard
     end
 end
